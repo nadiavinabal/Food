@@ -1,0 +1,47 @@
+.fondo{
+    
+    /*IMPORTANTE*/
+    display: flex;
+ 
+    
+  }
+
+  .createTitulo{
+    margin-left: 250px;
+  }
+
+  .btnCrear{
+    padding: 10px;
+  }
+
+  .recuadro{
+    background-color: rgba(247, 183, 7, 0.87);
+    width: 600px;
+    height: 500px;
+    /* background-color: fuchsia; */
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 350px;
+    size: 200px;
+  }
+
+  .divCrear{
+    width: 500px;
+    height: 400px;
+    /*background-color: fuchsia;*/
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    size: 200px;
+  }
+  
+  
+  .centrar{
+    margin-right: 200px;
+    width: 30rem;
+    border:  #f4511e 5px solid;
+    background-color: white;
+      
+  }

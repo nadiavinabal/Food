@@ -1,0 +1,32 @@
+.fondo{
+    
+    /*IMPORTANTE*/
+    display: flex;
+ 
+    
+  }
+
+  .imgDetalle{
+    margin: 30px;
+  }
+
+  .contenedorRec{
+    background-color: white;
+    width: 1000px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .centrar{
+   height: 30rem;
+    width: 50rem;
+    border:  #f4511e 5px solid;
+    background-color: white;
+      
+  }
+
+  .imagen{
+    width: 30px; height: 30px;
+  }
