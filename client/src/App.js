@@ -7,6 +7,7 @@ import CreateRecipe from './Modules/CreateRecipe/CreateRecipe';
 import Recipes from './Modules/Recipes';
 import RecipeDetail from './Modules/RecipeDetail/RecipeDetail';
 import SearchBar from './Modules/SearchBar';
+import prueba from './Modules/prueba/prueba';
 
 ///Buscar/${state.title}
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path="/recipeDetail/:id" component={RecipeDetail}/>
           <Route path="/Home" component={NavBar}/>
           <Route path="/Home" exact component={Home}/>
+          <Route path="/prueba" exact component={prueba}/>
           {/*<Route path="/Home" component={SearchBar}/>*/}
           <Route path="/Home/CreateRecipe" exact component={CreateRecipe}/>
        </>

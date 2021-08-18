@@ -47,13 +47,16 @@ export default function RecipeDetail (props){
              
             
             <div>
-              <p><b>TITULO </b>{recipes.title}</p>
-              <p><b>TTIPO DE PLATO </b>{recipes.dishTypes}</p>
-              <p><b>RESUMEN DE PLATO </b>{recipes.summary}</p>
-
-              <p><b>PUNTUACION </b>{recipes.weightWatcherSmartPoints}</p>
-              <p><b>PASO A PASO </b>{recipes.instructions}</p>
-              <p><b>DIETAS:</b></p>
+              <h1>{recipes.title}</h1>
+              <h4>Tipo de Plato</h4>
+              <p>{recipes.dishTypes}</p>
+              <h4>Resumen de Plato</h4>
+              <p>{recipes.summary}</p>
+              <h4>Puntuacion</h4>
+              <p>{recipes.weightWatcherSmartPoints}</p>
+              <h4>Paso a Paso</h4>
+              <p>{recipes.instructions}</p>
+              <h4>Dietas</h4>
               {(recipes.id?.length>12)? 
                    (
                     recipes.diets?.map(

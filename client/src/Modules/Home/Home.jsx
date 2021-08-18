@@ -30,7 +30,7 @@ export default function Home(){
      
     return(
       <div>
-        <div className='cards'>
+        <div className='container'>
             
             {currentPost.map((c) => 
                      <Recipes 

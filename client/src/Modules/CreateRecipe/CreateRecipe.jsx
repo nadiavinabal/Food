@@ -93,20 +93,32 @@ export default function CreateRecipe(){
    }
 
     return(
+        <div className="fondo">
+
+       
         <div className="recuadro">
          
-            <h3 className="createTitulo">Crear Recetas</h3>
+            <h1 className="createTitulo">Crear Recetas</h1>
+            
             <form className="divCrear" onSubmit={handlerOnSubmit}>
-              <label>Nombre</label>
-              <input type="text" name= 'title' onChange={handlerChange} required/>
+              <div className="input">
+              <input className="hola" type="text" name= 'title' onChange={handlerChange} required/>
+               <label>Nombre</label>
+              </div>
+              
+              <input className="hola" name="summary" id="" rows="5" onChange={handlerChange} required/>
               <label>Resumen del plato</label>
-              <textarea name="summary" id="" rows="5" onChange={handlerChange} required></textarea>
+              
+              <input className="hola" name="weightWatcherSmartPoints" type="number" min="0" max="10" onChange={handlerChange}/>
               <label>Puntuación</label>
-              <input name="weightWatcherSmartPoints" type="number" min="0" max="10" onChange={handlerChange}/>
+
+              
+              <input className="hola" name="healthScore" type="number" min="0" max="10" onChange={handlerChange}/>
               <label>Nivel de "comida saludable"</label>
-              <input name="healthScore" type="number" min="0" max="10" onChange={handlerChange}/>
+
+              <input className="hola" name="instructions" onChange={handlerChange}/>
               <label>Paso a paso</label>
-              <textarea name="instructions" rows='5' onChange={handlerChange}></textarea>
+
               <br/>
               <select onChange={handleSelectChange} name="selectDiet">
                 {
@@ -120,9 +132,10 @@ export default function CreateRecipe(){
                 //console.log('dietas',dietLoaded)
               }
               <br/>
-              <input className="btnCrear" type="submit" value="Guardar"/>
+              <input className="buttonCss" type="submit" value="Guardar"/>
             </form>
         
+        </div>
         </div>
     )
 }

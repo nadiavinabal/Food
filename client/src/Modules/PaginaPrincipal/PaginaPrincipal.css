@@ -2,14 +2,17 @@
   background-image: url("../../img/recetacopia.jpg");
 }*/
 
-.fondo{
+.fondo1{
   height: 600px;
   /*IMPORTANTE*/
-  background-image: url("../../img/recetacopia.jpg");
+  background-image: url("../../img/imagenFondo.png");
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;
+  justify-content: center;*/
+  align-items: flex-end;
+  justify-content: flex-end;
+  
 }
 
 .link{
@@ -20,7 +23,7 @@
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #f4511e;
+    /*background-color: #f4511e;*/
     border: none;
     color: #FFFFFF;
     text-align: center;

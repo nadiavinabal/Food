@@ -11,7 +11,7 @@
   }
 
   .contenedorRec{
-    background-color: white;
+    background-color: rgb(212, 237, 190);
     width: 1000px;
     height: 300px;
     display: flex;
@@ -29,4 +29,31 @@
 
   .imagen{
     width: 30px; height: 30px;
+  }
+
+  h4 {
+    display: block;
+    margin-block-start: 0.33em;
+   /* margin-block-end: 2em;*/
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position: relative;
+    background: rgb(0, 128, 55);
+    font-family: 'Indie Flower', cursive;
+    padding: 5px 15px 5px 15px;
+    font-size: 30px;
+    /*line-height: 30px;*/
+    color: #fff;
+    overflow: hidden;
+    transition: background .3s;
+  }
+
+  h1{
+    font-family: 'Style Script', cursive;
+    font-size: 45px;
+    text-align: center;
+  }
+
+  p {
+    font-family: cursive;
   }
